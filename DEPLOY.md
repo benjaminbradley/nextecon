@@ -71,9 +71,5 @@ If the certificate seems stuck, clear the Custom domain field, save, re-enter `n
 ## 6. Afterwards
 
 - Click through the live site and compare it with the old one. Old URLs (`/schedule/`, `/speaker-bios/`, …) keep the same paths.
-- **Before you shut down the WordPress host**, take a final backup: a database dump plus `wp-content/`. Back up the whole uploads folder too. Some files in it are not in this archive (see `UNLINKED-UPLOADS.md`).
+- **Before you shut down the WordPress host**, take a final backup: a database dump plus `wp-content/`. Back up the whole uploads folder too. Some files in it aren't in this archive.
 - Cancel the old hosting only once the new site has run fine for a while.
-
-## Updating the archive later
-
-See `tools/README.md` to re-run the capture. Only do that while the WordPress site is still online.
