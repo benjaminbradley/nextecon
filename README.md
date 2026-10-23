@@ -5,7 +5,6 @@ A static HTML/CSS archive of the Next Economy WordPress site (2013–2014), capt
 - `docs/` is the published site. Every link is relative, so it works on any domain or path.
 - `tools/` has the scripts that captured and cleaned the site. See `tools/README.md`.
 - `DEPLOY.md` covers GitHub Pages and DNS setup.
-- `UNLINKED-UPLOADS.md` lists files on the old server that no page links to.
 
 ## Changes from the original site
 
